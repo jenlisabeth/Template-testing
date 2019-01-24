@@ -130,7 +130,7 @@
                             "autoUpgradeMinorVersion": true,
                             "settings": {
                               "fileUris": [
-                                "https://raw.githubusercontent.com/jenlisabeth/Sirus-City-Store/master/script.sh?token=ALSqW8nI9ksjbh3chYWkzyB-S3T6R-5zks5cSc9MwA%3D%3D"
+                                "https://raw.githubusercontent.com/jenlisabeth/Template-testing/master/script.sh"
                               ]
                             },
                             "protectedSettings": {
