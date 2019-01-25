@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo -i
 rm cityconfig -R -f
 git clone https://github.com/jenlisabeth/template-testing cityconfig
 cd cityconfig
