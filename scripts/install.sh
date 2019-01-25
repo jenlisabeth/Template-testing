@@ -19,11 +19,11 @@ echo "  - Host: $fqdn"
 echo "  - Redis: $redis"
 echo "  - CKAN: $fqdn$ckanport"
 
-./scripts/install-dependencies.sh
+sudo sh ./scripts/install-dependencies.sh
 
-./scripts/start-docker.sh $fqdn$ckanport
+sudo sh ./scripts/start-docker.sh $fqdn$ckanport
 
-./scripts/enable-datapusher.sh
+sudo sh ./scripts/enable-datapusher.sh
 
-./scripts/configure-ckan.sh $rgname $ckanuser $ckanemail $ckanpassword
+sudo sh ./scripts/configure-ckan.sh $rgname $ckanuser $ckanemail $ckanpassword
 
