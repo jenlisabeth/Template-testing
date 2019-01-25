@@ -24,7 +24,6 @@ docker-compose start redis
 docker-compose start solr
 docker-compose start orion
 docker-compose start comet
-docker-compose start nifi
 docker-compose start datapusher
 docker-compose start ckan
 
